@@ -1,0 +1,51 @@
+.container{
+    border: 5px solid rgb(241, 237, 237);
+    width: 350px;
+    background: transparent;
+    height: 450px;
+    border-radius: 50px;
+    backdrop-filter: blur(8px);
+    
+    
+}
+
+.container .form h2{
+    text-align: center;
+    color: rgb(253, 240, 248);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('./1330260.png')no-repeat ;
+    background-size: cover;
+    background-position: center;
+   
+
+}
+.form-control  label{
+    color: rgb(195, 195, 204);
+}
+
+
+
+.form-control  input{
+        width: 90%;
+        border-radius: 50px;
+        height: 30px;
+        background: transparent;
+       
+      
+}
+
+.form-control  input::placeholder{
+        color: rgba(222, 214, 236, 0.266);
+}
+
+.container button{
+    width: 90%;
+    height: 30px;
+    border-radius: 50px;
+}
